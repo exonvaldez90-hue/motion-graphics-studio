@@ -1,0 +1,91 @@
+{
+  "library_name": "Motion Graphics Style Library",
+  "version": "1.0.0",
+  "profiles": [
+    {
+      "id": "vox-editorial",
+      "name": "VOX Editorial Explainer",
+      "category": "documentary-editorial",
+      "best_for": [
+        "documentary explainers",
+        "travel stories",
+        "history",
+        "geopolitics"
+      ],
+      "profile": "profiles/vox-editorial/STYLE.md"
+    },
+    {
+      "id": "kurzgesagt-inspired",
+      "name": "Colorful Scientific Vector Explainer",
+      "category": "illustrated-explainer",
+      "best_for": [
+        "science",
+        "education",
+        "abstract concepts",
+        "narrative explainers"
+      ],
+      "profile": "profiles/kurzgesagt-inspired/STYLE.md"
+    },
+    {
+      "id": "kinetic-typography",
+      "name": "Kinetic Typography",
+      "category": "typography-led",
+      "best_for": [
+        "short-form video",
+        "promos",
+        "announcements",
+        "music-led edits"
+      ],
+      "profile": "profiles/kinetic-typography/STYLE.md"
+    },
+    {
+      "id": "data-visualization",
+      "name": "Animated Data Visualization",
+      "category": "information-design",
+      "best_for": [
+        "statistics",
+        "comparisons",
+        "reports",
+        "business explainers"
+      ],
+      "profile": "profiles/data-visualization/STYLE.md"
+    },
+    {
+      "id": "isometric",
+      "name": "Isometric Explainer",
+      "category": "spatial-illustration",
+      "best_for": [
+        "systems",
+        "processes",
+        "cities",
+        "infrastructure",
+        "product ecosystems"
+      ],
+      "profile": "profiles/isometric/STYLE.md"
+    },
+    {
+      "id": "swiss-editorial",
+      "name": "Swiss Editorial Motion",
+      "category": "typographic-editorial",
+      "best_for": [
+        "premium brands",
+        "editorial content",
+        "corporate explainers",
+        "clean social content"
+      ],
+      "profile": "profiles/swiss-editorial/STYLE.md"
+    },
+    {
+      "id": "cinematic-product-anatomy",
+      "name": "Cinematic Product Anatomy",
+      "category": "cinematic-3d-product",
+      "best_for": [
+        "technology explainers",
+        "hardware teardown",
+        "product storytelling",
+        "premium tech advertising"
+      ],
+      "profile": "profiles/cinematic-product-anatomy/STYLE.md"
+    }
+  ]
+}

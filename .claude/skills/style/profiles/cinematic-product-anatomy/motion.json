@@ -1,0 +1,29 @@
+{
+  "profile": "cinematic-product-anatomy",
+  "principles": [
+    "slow cinematic reveals",
+    "mechanically plausible trajectories",
+    "restrained particle motion",
+    "controlled camera movement",
+    "intentional pauses"
+  ],
+  "defaults": {
+    "fps": 30,
+    "heroRevealFrames": 36,
+    "componentSeparationFrames": 54,
+    "microStaggerFrames": 4,
+    "settleFrames": 24
+  },
+  "easing": {
+    "standard": "easeInOut",
+    "entrance": "easeOut",
+    "exit": "easeIn"
+  },
+  "note": "These are starting values, not universal rules. Tune per scene and project FPS.",
+  "soundCues": [
+    "mechanical click",
+    "servo glide",
+    "subtle electrical hum",
+    "low cinematic impact"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "profile": "isometric",
+  "principles": [
+    "purposeful movement",
+    "consistent timing",
+    "readability first"
+  ],
+  "defaults": {
+    "fps": 30,
+    "transitionFrames": 18,
+    "holdFrames": 12,
+    "staggerFrames": 3
+  },
+  "easing": {
+    "standard": "easeInOut",
+    "entrance": "easeOut",
+    "exit": "easeIn"
+  },
+  "note": "These are starting values, not universal rules. Tune per scene and project FPS."
+}
