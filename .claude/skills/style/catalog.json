@@ -1,6 +1,6 @@
 {
   "library_name": "Motion Graphics Style Library",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "profiles": [
     {
       "id": "vox-editorial",
@@ -86,6 +86,23 @@
         "premium tech advertising"
       ],
       "profile": "profiles/cinematic-product-anatomy/STYLE.md"
+    },
+    {
+      "id": "paper-thread",
+      "name": "Paper Thread Explainer",
+      "category": "single-canvas-explainer",
+      "best_for": [
+        "how-it-works explainers",
+        "one event explained",
+        "engineering and science stories",
+        "number- and scale-led short-form video"
+      ],
+      "profile": "profiles/paper-thread/STYLE.md",
+      "additional_files": [
+        "profiles/paper-thread/STORY.md",
+        "profiles/paper-thread/ADAPTATION.md",
+        "profiles/paper-thread/references/REFERENCE_NOTES.md"
+      ]
     }
   ]
 }

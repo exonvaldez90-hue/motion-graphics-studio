@@ -1,0 +1,52 @@
+{
+  "profile": "paper-thread",
+  "principles": [
+    "one continuous canvas, camera travel instead of cuts",
+    "still while read, fast while moving",
+    "the thread leads, the camera follows, content arrives last",
+    "type hard-cuts on the spoken word",
+    "counters run with the sentence and settle on its last word"
+  ],
+  "defaults": {
+    "fps": 30,
+    "cameraMoveFrames": [9, 15],
+    "journeyMoveFrames": [60, 120],
+    "typeEntranceFrames": 0,
+    "labelLeaderFrames": [3, 6],
+    "objectMoveFrames": [10, 20],
+    "plateEntranceFrames": 9,
+    "blockWipeFrames": [6, 10],
+    "holdAfterFlatSentenceFrames": [9, 15],
+    "microEventIntervalFrames": [15, 30]
+  },
+  "rhythm": {
+    "stationSeconds": { "min": 2, "median": 5, "max": 14 },
+    "stationsPer90s": [14, 18],
+    "cameraTravelShareMax": 0.2,
+    "platesPer90s": [4, 7],
+    "headlinesPer90s": [5, 8],
+    "countersPer90s": [6, 10]
+  },
+  "easing": {
+    "camera": "easeInOut, cubic or steeper",
+    "counter": "easeOut",
+    "threadDraw": "linear with short easeOut at stop",
+    "object": "easeInOut",
+    "type": "none (hard cut)"
+  },
+  "caption": {
+    "groupEntrance": "whole group appears in pending colour",
+    "wordActivation": "word turns ink and takes the underline at its spoken timestamp",
+    "position": "fixed for the whole video"
+  },
+  "audio": {
+    "voiceWpmEnglishReference": 185,
+    "voiceWpmCzech": [140, 160],
+    "sentencePauseSeconds": [0.15, 0.55],
+    "bedBelowVoiceDb": [12, 15],
+    "measured": ["voice pace", "pause lengths", "presence and relative level of a continuous bed"],
+    "notMeasured": ["music character", "individual sound effects"]
+  },
+  "note": "Frame counts were read from 30 fps frame strips of the reference; treat them as starting values.",
+  "soundCues": ["counter tick", "pen scratch on line draw", "paper slide for plates", "short low whoosh on camera travel", "stamp on headline word"]
+}

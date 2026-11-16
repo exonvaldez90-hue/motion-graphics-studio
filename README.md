@@ -2,7 +2,7 @@
 
 # Motion Graphics Style Library
 
-Starter library for Claude Code + Remotion. It contains one central `/style` skill and seven reusable style profiles.
+Starter library for Claude Code + Remotion. It contains one central `/style` skill and eight reusable style profiles.
 
 ## Included profiles
 1. `vox-editorial` — documentary editorial explainers, maps, archival imagery and annotations.
@@ -12,6 +12,7 @@ Starter library for Claude Code + Remotion. It contains one central `/style` ski
 5. `isometric` — axonometric scenes and spatial process explanations.
 6. `swiss-editorial` — grid-based typography, restrained layouts and precise transitions.
 7. `cinematic-product-anatomy` — custom dark, cinematic 3D product storytelling based on the supplied references.
+8. `paper-thread` — one continuous paper canvas, a single red thread the camera follows, halftone cutouts, heavy condensed type and running counters; extracted from a reference explainer Reel. Includes a storytelling framework and a topic-adaptation guide.
 
 ## Install
 Copy the `.claude` directory into the root of your existing Motion Graphics Studio project. Merge folders if `.claude` already exists; do not overwrite existing skills.
@@ -20,6 +21,7 @@ Then open Claude Code in the project and try:
 - `/style`
 - `/style vox-editorial`
 - `/style cinematic-product-anatomy`
+- `/style paper-thread`
 
 The style skill can also be invoked naturally: "Use the cinematic product anatomy profile."
 

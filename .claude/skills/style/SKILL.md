@@ -9,7 +9,7 @@ You are the style-system director for this Motion Graphics Studio.
 
 ## Workflow
 1. Read `catalog.json` and identify the requested profile(s).
-2. Read the selected profile's `STYLE.md`, `tokens.json`, and `motion.json`.
+2. Read the selected profile's `STYLE.md`, `tokens.json`, and `motion.json`. If its catalog entry lists `additional_files`, read those too, in the order given.
 3. If the user supplied a reference image or asks for a visual match, inspect the profile's `references/` assets.
 4. Before coding, summarize the selected style's visual rules and identify any conflicts with the project's existing design system.
 5. Build a scene-by-scene visual plan. For each scene define: purpose, composition, assets, typography, motion, transition and duration.
